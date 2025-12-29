@@ -1,35 +1,41 @@
-# Playwright TypeScript Web Automation Framework
+# 🎭 Playwright Examples
 
-## Overview
-This project is a scalable **Playwright + TypeScript automation framework**
-designed for modern web applications.  
-It supports end-to-end UI testing, API validation, CI execution, and
-maintainable test architecture.
+This repo is used to demonstrate various testing scenarios with [Playwright](https://playwright.dev/) 🎭 with Node.js.
 
-## Tech Stack
-- Playwright
-- TypeScript
-- Node.js
-- GitHub Actions
-- REST API Testing
-- SQL (data validation)
+## Run Playwright example tests
 
-## Features
-- Page Object Model (POM)
-- Cross-browser testing (Chromium, Firefox, WebKit)
-- Parallel execution
-- CI integration using GitHub Actions
-- API + UI hybrid testing
-- Reusable utilities and fixtures
+### Install dependencies
 
-## Project Structure
-- `tests/` – UI and API test cases
-- `pages/` – Page Object classes
-- `utils/` – Helpers and test data
-- `fixtures/` – Test setup and teardown
-- `.github/workflows` – CI pipeline
+Start by cloning the repo and installing the dependencies:
 
-## How to Run
 ```bash
 npm install
-npx playwright test
+```
+
+Use the [VS Code Extension](https://marketplace.visualstudio.com/items?itemName=ms-playwright.playwright) to run the tests in the tests folder from VS Code or run the following command in the terminal:
+
+```bash
+npx playwright test --ui
+```
+
+## Contributing
+
+This project welcomes contributions and suggestions.  Most contributions require you to agree to a
+Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
+the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
+
+When you submit a pull request, a CLA bot will automatically determine whether you need to provide
+a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions
+provided by the bot. You will only need to do this once across all repos using our CLA.
+
+This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
+For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
+contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+
+## Trademarks
+
+This project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft 
+trademarks or logos is subject to and must follow 
+[Microsoft's Trademark & Brand Guidelines](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general).
+Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship.
+Any use of third-party trademarks or logos are subject to those third-party's policies.
